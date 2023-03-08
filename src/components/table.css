@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #16ee0b;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e30e0e;
+  }
+  tr:nth-child(odd) {
+    background-color: #0ee360;
+  }
+  
+  .btn {
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 8px;
+  }
+
+  
+  .btn:hover {
+    opacity: 0.8;
+    background-color: #e30e0e;
+  }
+  

@@ -1,0 +1,41 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 800px;
+    background-image: url("C:\Users\s.gowri shankar\my-react-app\src\components\image\87704.jpg");
+    background-size: cover;
+    border-radius: 30px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input::placeholder{
+    color: #04a121;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
